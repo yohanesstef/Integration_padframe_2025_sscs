@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/comp.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>DF.1a_LV</name>
+   <description>DF.1a_LV : Min. COMP Width. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.1a_MV</name>
+   <description>DF.1a_MV : Min. COMP Width. : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.1c</name>
+   <description>DF.1c : Min. COMP Width for MOSCAP. : 1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.2a_LV</name>
+   <description>DF.2a_LV : Min Channel Width. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.2a_MV</name>
+   <description>DF.2a_MV : Min Channel Width. : nil,0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.2b</name>
+   <description>DF.2b : Max. COMP width for all cases except those used for capacitors,
+                  marked by 'MOS_CAP_MK' layer: 100um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.3a_LV</name>
+   <description>DF.3a_LV : Min. COMP Space is : 0.28µm. [P-substrate tap (PCOMP outside NWELL and DNWELL)
+                  can be butted for different voltage devices as the potential is same]</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.3a_MV</name>
+   <description>DF.3a_MV :  Min. COMP Space is : 0.36µm. [P-substrate tap (PCOMP outside NWELL and DNWELL)
+                  can be butted for different voltage devices as the potential is same]</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.3b</name>
+   <description>DF.3b : Min./Max. NCOMP Space to PCOMP in the same well for butted COMP
+                  (MOSCAP butting is not allowed): 0 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.3c_LV</name>
+   <description>DF.3c_LV : Min. COMP Space in BJT area (area marked by DRC_BJT layer). : 0.32µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.3c_MV</name>
+   <description>DF.3c_MV : Min. COMP Space in BJT area (area marked by DRC_BJT layer) hasn't been assessed.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4a_LV</name>
+   <description>DF.4a_LV : Min. (LVPWELL Space to NCOMP well tap) inside DNWELL. : 0.12µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4a_MV</name>
+   <description>DF.4a_MV : Min. (LVPWELL Space to NCOMP well tap) inside DNWELL. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4b_LV</name>
+   <description>DF.4b_LV : Min. DNWELL overlap of NCOMP well tap. : 0.62µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4b_MV</name>
+   <description>DF.4b_MV : Min. DNWELL overlap of NCOMP well tap. : 0.66µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4c_LV</name>
+   <description>DF.4c_LV : Min. (Nwell overlap of PCOMP) outside DNWELL. : 0.43µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4c_MV</name>
+   <description>DF.4c_MV : Min. (Nwell overlap of PCOMP) outside DNWELL. : 0.6µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4d_LV</name>
+   <description>DF.4d_LV : Min. (Nwell overlap of NCOMP) outside DNWELL. : 0.12µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4d_MV</name>
+   <description>DF.4d_MV : Min. (Nwell overlap of NCOMP) outside DNWELL. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4e_LV</name>
+   <description>DF.4e_LV : Min. DNWELL overlap of PCOMP. : 0.93µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.4e_MV</name>
+   <description>DF.4e_MV : Min. DNWELL overlap of PCOMP. : 1.1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.5_LV</name>
+   <description>DF.5_LV : Min. (LVPWELL overlap of PCOMP well tap) inside DNWELL. : 0.12µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.5_MV</name>
+   <description>DF.5_MV : Min. (LVPWELL overlap of PCOMP well tap) inside DNWELL. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.6_LV</name>
+   <description>DF.6_LV : Min. COMP extend beyond gate (it also means source/drain overhang). : 0.24µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.6_MV</name>
+   <description>DF.6_MV : Min. COMP extend beyond gate (it also means source/drain overhang). : 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.7_LV</name>
+   <description>DF.7_LV : Min. (LVPWELL Spacer to PCOMP) inside DNWELL. : 0.43µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.7_MV</name>
+   <description>DF.7_MV : Min. (LVPWELL Spacer to PCOMP) inside DNWELL. : 0.6µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.8_LV</name>
+   <description>DF.8_LV : Min. (LVPWELL overlap of NCOMP) Inside DNWELL. : 0.43µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.8_MV</name>
+   <description>DF.8_MV : Min. (LVPWELL overlap of NCOMP) Inside DNWELL. : 0.6µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.9</name>
+   <description>DF.9 : Min. COMP area (um2). : 0.2025µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.10</name>
+   <description>DF.10 : Min. field area (um2). : 0.26µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.11</name>
+   <description>DF.11 : Min. Length of butting COMP edge. : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.12</name>
+   <description>DF.12 : COMP not covered by Nplus or Pplus is forbidden (except those COMP under marking).</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.13_LV</name>
+   <description>DF.13_LV : Max distance of Nwell tap (NCOMP inside Nwell) from (PCOMP inside Nwell): 20um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.13_MV</name>
+   <description>DF.13_MV : Max distance of Nwell tap (NCOMP inside Nwell) from (PCOMP inside Nwell): 15um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.14_LV</name>
+   <description>DF.14_LV : Max distance of substrate tap (PCOMP outside Nwell) from (NCOMP outside Nwell): 20um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.14_MV</name>
+   <description>DF.14_MV : Max distance of substrate tap (PCOMP outside Nwell) from (NCOMP outside Nwell): 15um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.16_LV</name>
+   <description>DF.16_LV : Min. space from (Nwell outside DNWELL) to (NCOMP outside Nwell and DNWELL). : 0.43µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.16_MV</name>
+   <description>DF.16_MV : Min. space from (Nwell outside DNWELL) to (NCOMP outside Nwell and DNWELL). : 0.6µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.17_LV</name>
+   <description>DF.17_LV : Min. space from (Nwell Outside DNWELL) to (PCOMP outside Nwell and DNWELL). : 0.12µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.17_MV</name>
+   <description>DF.17_MV : Min. space from (Nwell Outside DNWELL) to (PCOMP outside Nwell and DNWELL). : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.18</name>
+   <description>DF.18 : Min. DNWELL space to (PCOMP outside Nwell and DNWELL). : 2.5µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.19_LV</name>
+   <description>DF.19_LV : Min. DNWELL space to (NCOMP outside Nwell and DNWELL). : 3.2µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>DF.19_MV</name>
+   <description>DF.19_MV : Min. DNWELL space to (NCOMP outside Nwell and DNWELL). : 3.28µm</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'DF.3b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.16,1967.5;2585.16,2382.58;2586.11,2382.58;2586.11,2380.465;2868.565,2380.465;2868.565,2454.535;2586.11,2454.535;2586.11,2387.64;2586.295,2387.64;2586.295,2386.265;2586.11,2386.265;2586.11,2385.625;2586.295,2385.625;2586.295,2384.195;2586.11,2384.195;2586.11,2384.035;2585.775,2384.035;2585.775,2385.785;2585.16,2385.785;2585.16,2386.385;2585,2386.385;2585,2387.045;2585.16,2387.045;2585.16,2467.5;2586.11,2467.5;2586.11,2465.465;2868.565,2465.465;2868.565,2467.5;2869.515,2467.5;2869.515,1967.5;2868.565,1967.5;2868.565,1969.535;2586.11,1969.535;2586.11,1967.5/2586.11,1970.465;2868.565,1970.465;2868.565,1974.535;2586.11,1974.535/2586.11,1975.465;2868.565,1975.465;2868.565,1979.535;2586.11,1979.535/2586.11,1980.465;2868.565,1980.465;2868.565,2054.535;2586.11,2054.535/2586.11,2055.465;2868.565,2055.465;2868.565,2059.535;2586.11,2059.535/2586.11,2060.465;2868.565,2060.465;2868.565,2064.535;2586.11,2064.535/2586.11,2065.465;2868.565,2065.465;2868.565,2069.535;2586.11,2069.535/2586.11,2070.465;2868.565,2070.465;2868.565,2074.535;2586.11,2074.535/2586.11,2075.465;2868.565,2075.465;2868.565,2079.535;2586.11,2079.535/2586.11,2080.465;2868.565,2080.465;2868.565,2154.535;2586.11,2154.535/2586.11,2155.465;2868.565,2155.465;2868.565,2159.535;2586.11,2159.535/2586.11,2160.465;2868.565,2160.465;2868.565,2164.535;2586.11,2164.535/2586.11,2165.465;2868.565,2165.465;2868.565,2169.535;2586.11,2169.535/2586.11,2170.465;2868.565,2170.465;2868.565,2174.535;2586.11,2174.535/2586.11,2175.465;2868.565,2175.465;2868.565,2179.535;2586.11,2179.535/2586.11,2180.465;2868.565,2180.465;2868.565,2254.535;2586.11,2254.535/2586.11,2255.465;2868.565,2255.465;2868.565,2259.535;2586.11,2259.535/2586.11,2260.465;2868.565,2260.465;2868.565,2264.535;2586.11,2264.535/2586.11,2265.465;2868.565,2265.465;2868.565,2269.535;2586.11,2269.535/2586.11,2270.465;2868.565,2270.465;2868.565,2274.535;2586.11,2274.535/2586.11,2275.465;2868.565,2275.465;2868.565,2279.535;2586.11,2279.535/2586.11,2280.465;2868.565,2280.465;2868.565,2354.535;2586.11,2354.535/2586.11,2355.465;2868.565,2355.465;2868.565,2359.535;2586.11,2359.535/2586.11,2360.465;2868.565,2360.465;2868.565,2364.535;2586.11,2364.535/2586.11,2365.465;2868.565,2365.465;2868.565,2369.535;2586.11,2369.535/2586.11,2370.465;2868.565,2370.465;2868.565,2374.535;2586.11,2374.535/2586.11,2375.465;2868.565,2375.465;2868.565,2379.535;2586.11,2379.535/2586.11,2455.465;2868.565,2455.465;2868.565,2459.535;2586.11,2459.535/2586.11,2460.465;2868.565,2460.465;2868.565,2464.535;2586.11,2464.535)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.4c_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.16,2385.785;2586.11,2385.785)/(2584.56,2385.785;2586.71,2385.785)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.4c_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.11,2385.625;2586.27,2385.625)/(2585.532,2385.785;2586.848,2385.785)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.4c_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.11,2382.58;2585.16,2382.58)/(2586.71,2382.58;2584.56,2382.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.4d_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,2385.785;2586.11,2385.785)/(2585.615,2385.785;2586.27,2385.785)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.16_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.11,2385.785;2585.16,2385.785)/(2584.56,2385.785;2586.71,2385.785)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.17_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.16,2382.58;2586.11,2382.58)/(2586.27,2382.58;2585,2382.58)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.17_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.11,2385.785;2585.16,2385.785)/(2585,2385.785;2586.27,2385.785)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1585.16,456.194;1585.16,468.256)/(1582.661,468.185;1582.661,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1566.11,468.256;1566.11,459.644)/(1568.609,459.715;1568.609,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1783.865,456.194;1783.865,468.256)/(1781.366,468.185;1781.366,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1764.815,468.256;1764.815,459.644)/(1767.314,459.715;1767.314,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1585.16,456.194;1585.16,468.256)/(1582.661,468.185;1582.661,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1566.11,468.256;1566.11,459.644)/(1568.609,459.715;1568.609,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1783.865,456.194;1783.865,468.256)/(1781.366,468.185;1781.366,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1764.815,468.256;1764.815,459.644)/(1767.314,459.715;1767.314,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2176.085,468.256;2176.085,459.644)/(2178.584,459.715;2178.584,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2195.135,456.194;2195.135,468.256)/(2192.636,468.185;2192.636,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2377.625,468.256;2377.625,459.644)/(2380.124,459.715;2380.124,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2396.675,456.194;2396.675,468.256)/(2394.176,468.185;2394.176,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1990.03,456.194;1990.03,468.256)/(1987.531,468.185;1987.531,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1970.98,468.256;1970.98,459.644)/(1973.479,459.715;1973.479,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2497.235,456.194;2497.235,468.256)/(2494.736,468.185;2494.736,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2478.185,468.256;2478.185,459.644)/(2480.684,459.715;2480.684,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2497.235,456.194;2497.235,468.256)/(2494.736,468.185;2494.736,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2478.185,468.256;2478.185,459.644)/(2480.684,459.715;2480.684,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2176.085,468.256;2176.085,459.644)/(2178.584,459.715;2178.584,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2195.135,456.194;2195.135,468.256)/(2192.636,468.185;2192.636,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2377.625,468.256;2377.625,459.644)/(2380.124,459.715;2380.124,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1990.03,456.194;1990.03,468.256)/(1987.531,468.185;1987.531,456.265)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (1970.98,468.256;1970.98,459.644)/(1973.479,459.715;1973.479,468.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'DF.18'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2396.675,456.194;2396.675,468.256)/(2394.176,468.185;2394.176,456.265)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

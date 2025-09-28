@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/poly2.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>PL.1_LV</name>
+   <description>PL.1_LV : Interconnect Width (outside PLFUSE). : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.1_MV</name>
+   <description>PL.1_MV : Interconnect Width (outside PLFUSE). : 0.2µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.1a_LV</name>
+   <description>PL.1a_LV : Interconnect Width (inside PLFUSE). : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.1a_MV</name>
+   <description>PL.1a_MV : Interconnect Width (inside PLFUSE). : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.2_LV</name>
+   <description>PL.2_LV : Gate Width (Channel Length). : 0.28µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.2_MV</name>
+   <description>PL.2_MV : Gate Width (Channel Length).</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.3a</name>
+   <description>PL.3a : Space on COMP/Field: 0.24µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.4_LV</name>
+   <description>PL.4_LV : Extension beyond COMP to form Poly2 end cap. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.4_MV</name>
+   <description>PL.4_MV : Extension beyond COMP to form Poly2 end cap. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.5a_LV</name>
+   <description>PL.5a_LV : Space from field Poly2 to unrelated COMP Spacer from field Poly2 to Guard-ring. : 0.1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.5a_MV</name>
+   <description>PL.5a_MV : Space from field Poly2 to unrelated COMP Spacer from field Poly2 to Guard-ring. : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.5b_LV</name>
+   <description>PL.5b_LV : Space from field Poly2 to related COMP. : 0.1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.5b_MV</name>
+   <description>PL.5b_MV : Space from field Poly2 to related COMP. : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.6</name>
+   <description>PL.6 : 90 degree bends on the COMP are not allowed.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.7_LV</name>
+   <description>PL.7_LV : 45 degree bent gate width : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.7_MV</name>
+   <description>PL.7_MV : 45 degree bent gate width: 0.7µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.9</name>
+   <description>PL.9 : Poly2 inter connect connecting 3.3V and 5V areas (area inside and outside Dualgate)
+                 are not allowed. They shall be done though metal lines only.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.11</name>
+   <description>PL.11 : V5_Xtor must enclose 5V device.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PL.12</name>
+   <description>PL.12 : V5_Xtor enclose 5V Comp.</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'PL.5a_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2584.915,2386.558;2584.915,2386.165)/(2585.16,2385.992;2585.16,2386.385)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.5a_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2584.915,2387.265;2584.915,2386.872)/(2585.16,2387.045;2585.16,2387.438)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.5b_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2584.915,2386.558;2584.915,2386.165)/(2585.16,2385.992;2585.16,2386.385)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.5b_MV'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2584.915,2387.265;2584.915,2386.872)/(2585.16,2387.045;2585.16,2387.438)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.12'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.16,1967.5;2585.16,2232.775;2586.11,2232.775;2586.11,2180.465;2613.377,2180.465;2613.377,2179.535;2586.11,2179.535;2586.11,2175.465;2613.377,2175.465;2613.377,2174.535;2586.11,2174.535;2586.11,2170.465;2613.377,2170.465;2613.377,2169.535;2586.11,2169.535;2586.11,2165.465;2613.377,2165.465;2613.377,2164.535;2586.11,2164.535;2586.11,2160.465;2613.377,2160.465;2613.377,2159.535;2586.11,2159.535;2586.11,2155.465;2613.377,2155.465;2613.377,2154.535;2586.11,2154.535;2586.11,2080.465;2613.377,2080.465;2613.377,2079.535;2586.11,2079.535;2586.11,2075.465;2613.377,2075.465;2613.377,2074.535;2586.11,2074.535;2586.11,2070.465;2613.377,2070.465;2613.377,2069.535;2586.11,2069.535;2586.11,2065.465;2613.377,2065.465;2613.377,2064.535;2586.11,2064.535;2586.11,2060.465;2613.377,2060.465;2613.377,2059.535;2586.11,2059.535;2586.11,2055.465;2613.377,2055.465;2613.377,2054.535;2586.11,2054.535;2586.11,1980.465;2613.377,1980.465;2613.377,1979.535;2586.11,1979.535;2586.11,1975.465;2613.377,1975.465;2613.377,1974.535;2586.11,1974.535;2586.11,1970.465;2613.377,1970.465;2613.377,1969.535;2586.11,1969.535;2586.11,1967.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.12'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.16,2232.775;2585.16,2383.01;2586.11,2383.01;2586.11,2380.465;2613.377,2380.465;2613.377,2379.535;2586.11,2379.535;2586.11,2375.465;2613.377,2375.465;2613.377,2374.535;2586.11,2374.535;2586.11,2370.465;2613.377,2370.465;2613.377,2369.535;2586.11,2369.535;2586.11,2365.465;2613.377,2365.465;2613.377,2364.535;2586.11,2364.535;2586.11,2360.465;2613.377,2360.465;2613.377,2359.535;2586.11,2359.535;2586.11,2355.465;2613.377,2355.465;2613.377,2354.535;2586.11,2354.535;2586.11,2280.465;2613.377,2280.465;2613.377,2279.535;2586.11,2279.535;2586.11,2275.465;2613.377,2275.465;2613.377,2274.535;2586.11,2274.535;2586.11,2270.465;2613.377,2270.465;2613.377,2269.535;2586.11,2269.535;2586.11,2265.465;2613.377,2265.465;2613.377,2264.535;2586.11,2264.535;2586.11,2260.465;2613.377,2260.465;2613.377,2259.535;2586.11,2259.535;2586.11,2255.465;2613.377,2255.465;2613.377,2254.535;2586.11,2254.535;2586.11,2232.775)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.12'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.16,2388.05;2585.16,2467.5;2586.11,2467.5;2586.11,2465.465;2613.377,2465.465;2613.377,2464.535;2586.11,2464.535;2586.11,2460.465;2613.377,2460.465;2613.377,2459.535;2586.11,2459.535;2586.11,2455.465;2613.377,2455.465;2613.377,2454.535;2586.11,2454.535;2586.11,2388.05)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.12'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2868.565,1967.5;2868.565,1969.535;2613.377,1969.535;2613.377,1970.465;2868.565,1970.465;2868.565,1974.535;2613.377,1974.535;2613.377,1975.465;2868.565,1975.465;2868.565,1979.535;2613.377,1979.535;2613.377,1980.465;2868.565,1980.465;2868.565,2054.535;2613.377,2054.535;2613.377,2055.465;2868.565,2055.465;2868.565,2059.535;2613.377,2059.535;2613.377,2060.465;2868.565,2060.465;2868.565,2064.535;2613.377,2064.535;2613.377,2065.465;2868.565,2065.465;2868.565,2069.535;2613.377,2069.535;2613.377,2070.465;2868.565,2070.465;2868.565,2074.535;2613.377,2074.535;2613.377,2075.465;2868.565,2075.465;2868.565,2079.535;2613.377,2079.535;2613.377,2080.465;2868.565,2080.465;2868.565,2154.535;2613.377,2154.535;2613.377,2155.465;2868.565,2155.465;2868.565,2159.535;2613.377,2159.535;2613.377,2160.465;2868.565,2160.465;2868.565,2164.535;2613.377,2164.535;2613.377,2165.465;2868.565,2165.465;2868.565,2169.535;2613.377,2169.535;2613.377,2170.465;2868.565,2170.465;2868.565,2174.535;2613.377,2174.535;2613.377,2175.465;2868.565,2175.465;2868.565,2179.535;2613.377,2179.535;2613.377,2180.465;2868.565,2180.465;2868.565,2232.775;2869.515,2232.775;2869.515,1967.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PL.12'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2868.565,2232.775;2868.565,2254.535;2613.377,2254.535;2613.377,2255.465;2868.565,2255.465;2868.565,2259.535;2613.377,2259.535;2613.377,2260.465;2868.565,2260.465;2868.565,2264.535;2613.377,2264.535;2613.377,2265.465;2868.565,2265.465;2868.565,2269.535;2613.377,2269.535;2613.377,2270.465;2868.565,2270.465;2868.565,2274.535;2613.377,2274.535;2613.377,2275.465;2868.565,2275.465;2868.565,2279.535;2613.377,2279.535;2613.377,2280.465;2868.565,2280.465;2868.565,2354.535;2613.377,2354.535;2613.377,2355.465;2868.565,2355.465;2868.565,2359.535;2613.377,2359.535;2613.377,2360.465;2868.565,2360.465;2868.565,2364.535;2613.377,2364.535;2613.377,2365.465;2868.565,2365.465;2868.565,2369.535;2613.377,2369.535;2613.377,2370.465;2868.565,2370.465;2868.565,2374.535;2613.377,2374.535;2613.377,2375.465;2868.565,2375.465;2868.565,2379.535;2613.377,2379.535;2613.377,2380.465;2868.565,2380.465;2868.565,2454.535;2613.377,2454.535;2613.377,2455.465;2868.565,2455.465;2868.565,2459.535;2613.377,2459.535;2613.377,2460.465;2868.565,2460.465;2868.565,2464.535;2613.377,2464.535;2613.377,2465.465;2868.565,2465.465;2868.565,2467.5;2869.515,2467.5;2869.515,2232.775)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

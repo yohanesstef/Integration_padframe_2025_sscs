@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/pplus.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>PP.1</name>
+   <description>PP.1 : min. pplus width : 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.2</name>
+   <description>PP.2 : min. pplus spacing : 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3a</name>
+   <description>PP.3a : Space to NCOMP for NCOMP (1) inside LVPWELL (2) outside NWELL and DNWELL: 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3bi</name>
+   <description>PP.3bi : Space to NCOMP: For Inside DNWELL. (i) NCOMP space to LVPWELL &gt;= 0.43um: 0.08µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3bii</name>
+   <description>PP.3bii : Space to NCOMP: For Inside DNWELL.
+                      (ii) NCOMP space to LVPWELL &lt; 0.43um. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3ci</name>
+   <description>PP.3ci : Space to NCOMP: For Outside DNWELL, inside Nwell:
+                    (i) NWELL Overlap of NCOMP &gt;= 0.43um: 0.08µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3cii</name>
+   <description>PP.3cii : Space to NCOMP: For Outside DNWELL, inside Nwell:
+                     (ii) NWELL Overlap of NCOMP 0.43um. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3d</name>
+   <description>PP.3d : Min/max space to a butted NCOMP: 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.3e</name>
+   <description>PP.3e : Space to NCOMP edge adjacent to a butting edge: 0um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.4a</name>
+   <description>PP.4a : Space related to N-channel gate at a butting edge parallel to gate. : 0.32µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.4b</name>
+   <description>PP.4b : Within 0.32um of channel, space to N-channel gate
+                    extension perpendicular to the direction of Poly2.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5a</name>
+   <description>PP.5a : Overlap of P-channel gate. : 0.23µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5b</name>
+   <description>PP.5b : Extension beyond COMP for COMP
+                 (1) Inside NWELL (2) outside LVPWELL but inside DNWELL. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5ci</name>
+   <description>PP.5ci : Extension beyond COMP: For Inside DNWELL, inside LVPWELL:
+                    (i) For LVPWELL overlap of Pplus &gt;= 0.43um for LVPWELL tap. : 0.02µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5cii</name>
+   <description>PP.5cii : Extension beyond COMP: For Inside DNWELL, inside LVPWELL:
+                     (ii) For LVPWELL overlap of Pplus &lt; 0.43um for the LVPWELL tap. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5di</name>
+   <description>PP.5di : Extension beyond COMP: For Outside DNWELL
+                    (i) For Pplus to NWELL space &gt;= 0.43um for Pfield or LVPWELL tap. : 0.02µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.5dii</name>
+   <description>PP.5dii : Extension beyond COMP: For Outside DNWELL
+                     (ii) For Pplus to NWELL space &lt; 0.43um for Pfield or LVPWELL tap. : 0.16µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.6</name>
+   <description>PP.6 : Overlap with PCOMP butted to NCOMP. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.7</name>
+   <description>PP.7 : Space to unrelated unsalicided Poly2. : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.8a</name>
+   <description>PP.8a : Minimum Pplus area (um2). : 0.35µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.8b</name>
+   <description>PP.8b : Minimum area enclosed by Pplus (um2). : 0.35µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.9</name>
+   <description>PP.9 : Overlap of unsalicided Poly2. : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.10</name>
+   <description>PP.10 : Overlap of unsalicided COMP. : 0.18µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.11</name>
+   <description>PP.11 : Butting Pplus and NCOMP is forbidden within 0.43um of Nwell edge
+                    (for outside DNWELL) and of LVPWELL edge (for inside DNWELL case).</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>PP.12</name>
+   <description>PP.12 : Overlap with N-channel Poly2 gate extension is forbidden
+                    within 0.32um of N-channel gate.</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2481.58,1827.95;2481.58,1828.177)|(2481.25,1827.951;2481.25,1827.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2477.69,1827.95;2477.69,1827.951)|(2477.51,1827.951;2477.51,1827.95)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2481.58,1822.179;2481.58,1822.18)|(2481.25,1822.18;2481.25,1822.179)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2477.69,1822.179;2477.69,1822.18)|(2477.51,1822.18;2477.51,1822.179)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2502.895,1799.16;2502.895,1799.161)|(2502.755,1799.161;2502.755,1799.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2499.195,1799.16;2499.195,1799.161)|(2498.865,1799.387;2498.865,1799.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2480.305,1810.89;2480.305,1811.117)|(2479.975,1810.891;2479.975,1810.89)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2502.895,1793.389;2502.895,1793.39)|(2502.755,1793.39;2502.755,1793.389)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2476.415,1810.89;2476.415,1810.891)|(2476.235,1810.891;2476.235,1810.89)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.455,2384.035;2586.455,2385.785)|(2586.27,2386.14;2586.27,2384.035)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.2'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2587.205,2382.616;2587.205,2385.979)|(2586.855,2385.785;2586.855,2382.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.3d'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.775,2384.035;2585.775,2385.785;2585.16,2385.785;2585.16,2386.385;2585,2386.385;2585,2387.045;2585.16,2387.045;2585.16,2388.25;2586.11,2388.25;2586.11,2387.8;2585.775,2387.8;2585.775,2386.185;2586.11,2386.185;2586.11,2385.625;2586.27,2385.625;2586.27,2384.195;2586.11,2384.195;2586.11,2384.035)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.3e'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585.775,2384.035;2585.775,2385.785;2585.16,2385.785;2585.16,2386.385;2585,2386.385;2585,2387.045;2585.16,2387.045;2585.16,2388.25;2586.11,2388.25;2586.11,2387.8;2585.775,2387.8;2585.775,2386.185;2586.11,2386.185;2586.11,2385.625;2586.27,2385.625;2586.27,2384.195;2586.11,2384.195;2586.11,2384.035)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.4b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2585,1967.5;2585,1974.375;2586.27,1974.375;2586.27,1970.625;2868.405,1970.625;2868.405,1974.375;2585,1974.375;2585,1979.375;2586.27,1979.375;2586.27,1975.625;2868.405,1975.625;2868.405,1979.375;2585,1979.375;2585,1991.335;2587.34,1991.335;2587.34,1983.175;2594.86,1983.175;2594.86,1991.335;2585,1991.335;2585,2052.905;2587.34,2052.905;2587.34,1992.105;2591.97,1992.105;2591.97,2052.905;2585,2052.905;2585,2054.375;2586.27,2054.375;2586.27,2053.675;2592.74,2053.675;2592.74,1992.105;2595.63,1992.105;2595.63,1982.405;2586.27,1982.405;2586.27,1980.625;2817.625,1980.625;2817.625,1981.395;2866.55,1981.395;2866.55,2053.295;2817.625,2053.295;2817.625,2054.375;2585,2054.375;2585,2059.375;2586.27,2059.375;2586.27,2055.625;2868.405,2055.625;2868.405,2059.375;2585,2059.375;2585,2064.375;2586.27,2064.375;2586.27,2060.625;2868.405,2060.625;2868.405,2064.375;2585,2064.375;2585,2069.375;2586.27,2069.375;2586.27,2065.625;2868.405,2065.625;2868.405,2069.375;2585,2069.375;2585,2074.375;2586.27,2074.375;2586.27,2070.625;2868.405,2070.625;2868.405,2074.375;2585,2074.375;2585,2079.375;2586.27,2079.375;2586.27,2075.625;2868.405,2075.625;2868.405,2079.375;2585,2079.375;2585,2091.335;2587.34,2091.335;2587.34,2083.175;2594.86,2083.175;2594.86,2091.335;2585,2091.335;2585,2152.905;2587.34,2152.905;2587.34,2092.105;2591.97,2092.105;2591.97,2152.905;2585,2152.905;2585,2154.375;2586.27,2154.375;2586.27,2153.675;2592.74,2153.675;2592.74,2092.105;2595.63,2092.105;2595.63,2082.405;2586.27,2082.405;2586.27,2080.625;2817.625,2080.625;2817.625,2081.395;2866.55,2081.395;2866.55,2153.295;2817.625,2153.295;2817.625,2154.375;2585,2154.375;2585,2159.375;2586.27,2159.375;2586.27,2155.625;2868.405,2155.625;2868.405,2159.375;2585,2159.375;2585,2164.375;2586.27,2164.375;2586.27,2160.625;2868.405,2160.625;2868.405,2164.375;2585,2164.375;2585,2169.375;2586.27,2169.375;2586.27,2165.625;2868.405,2165.625;2868.405,2169.375;2585,2169.375;2585,2174.375;2586.27,2174.375;2586.27,2170.625;2868.405,2170.625;2868.405,2174.375;2585,2174.375;2585,2179.375;2586.27,2179.375;2586.27,2175.625;2868.405,2175.625;2868.405,2179.375;2585,2179.375;2585,2191.335;2587.34,2191.335;2587.34,2183.175;2594.86,2183.175;2594.86,2191.335;2585,2191.335;2585,2252.905;2587.34,2252.905;2587.34,2192.105;2591.97,2192.105;2591.97,2252.905;2585,2252.905;2585,2254.375;2586.27,2254.375;2586.27,2253.675;2592.74,2253.675;2592.74,2192.105;2595.63,2192.105;2595.63,2182.405;2586.27,2182.405;2586.27,2180.625;2817.625,2180.625;2817.625,2181.395;2866.55,2181.395;2866.55,2253.295;2817.625,2253.295;2817.625,2254.375;2585,2254.375;2585,2259.375;2586.27,2259.375;2586.27,2255.625;2868.405,2255.625;2868.405,2259.375;2585,2259.375;2585,2264.375;2586.27,2264.375;2586.27,2260.625;2868.405,2260.625;2868.405,2264.375;2585,2264.375;2585,2269.375;2586.27,2269.375;2586.27,2265.625;2868.405,2265.625;2868.405,2269.375;2585,2269.375;2585,2274.375;2586.27,2274.375;2586.27,2270.625;2868.405,2270.625;2868.405,2274.375;2585,2274.375;2585,2279.375;2586.27,2279.375;2586.27,2275.625;2868.405,2275.625;2868.405,2279.375;2585,2279.375;2585,2354.375;2586.27,2354.375;2586.27,2280.625;2868.405,2280.625;2868.405,2354.375;2585,2354.375;2585,2359.375;2586.27,2359.375;2586.27,2355.625;2868.405,2355.625;2868.405,2359.375;2585,2359.375;2585,2364.375;2586.27,2364.375;2586.27,2360.625;2868.405,2360.625;2868.405,2364.375;2585,2364.375;2585,2369.375;2586.27,2369.375;2586.27,2365.625;2868.405,2365.625;2868.405,2369.375;2585,2369.375;2585,2374.375;2586.27,2374.375;2586.27,2370.625;2868.405,2370.625;2868.405,2374.375;2585,2374.375;2585,2379.375;2586.27,2379.375;2586.27,2375.625;2868.405,2375.625;2868.405,2379.375;2585,2379.375;2585,2382.81;2583.095,2382.81;2583.095,2385.785;2585,2385.785;2585,2454.375;2586.27,2454.375;2586.27,2387.8;2586.455,2387.8;2586.455,2386.185;2586.27,2386.185;2586.27,2384.035;2586.455,2384.035;2586.455,2385.785;2586.855,2385.785;2586.855,2382.81;2586.27,2382.81;2586.27,2380.625;2868.405,2380.625;2868.405,2454.375;2585,2454.375;2585,2459.375;2586.27,2459.375;2586.27,2455.625;2868.405,2455.625;2868.405,2459.375;2585,2459.375;2585,2464.375;2586.27,2464.375;2586.27,2460.625;2868.405,2460.625;2868.405,2464.375;2585,2464.375;2585,2467.5;2586.27,2467.5;2586.27,2465.625;2868.405,2465.625;2868.405,2467.5;2869.675,2467.5;2869.675,1967.5;2868.405,1967.5;2868.405,1969.375;2586.27,1969.375;2586.27,1967.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.5b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.27,2385.625;2586.27,2384.195)/(2586.27,2385.625;2586.27,2384.195)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.5di'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585,2386.385;2585,2387.045)/(2585,2386.385;2585,2387.045)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'PP.5dii'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.27,2385.625;2586.27,2384.195)/(2586.27,2385.625;2586.27,2384.195)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

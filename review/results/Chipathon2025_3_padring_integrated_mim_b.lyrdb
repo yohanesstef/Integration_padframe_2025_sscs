@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/mim_b.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>MIMTM.1</name>
+   <description>MIMTM.1 : Minimum MiM bottom plate spacing to the bottom plate metal
+                      (whether adjacent MiM or routing metal). : 1.2µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.2</name>
+   <description>MIMTM.2 : Minimum MiM bottom plate overlap of Vian-1 layer.
+                    [This is applicable for Vian-1 within 1.06um oversize of FuseTop layer
+                    (referenced to virtual bottom plate)]. : 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.3</name>
+   <description>MIMTM.3 : Minimum MiM bottom plate overlap of Top plate.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.4</name>
+   <description>MIMTM.4 : Minimum MiM top plate (FuseTop) overlap of Vian-1: 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.5</name>
+   <description>MIMTM.5 : Minimum spacing between top plate and the Vian-1 connecting to the bottom plate. : 0.4µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.6</name>
+   <description>MIMTM.6 : Minimum spacing between unrelated top plates: 0.6µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.7</name>
+   <description>MIMTM.7 : Min FuseTop enclosure by CAP_MK: 0um.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.8a</name>
+   <description>MIMTM.8a : Minimum MIM cap area (defined by FuseTop area): 25µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.8b</name>
+   <description>MIMTM.8b : Maximum single MIM Cap area (Use multiple MIM caps in
+                       parallel connection if bigger capacitors are required) (um2). : 10000µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.9</name>
+   <description>MIMTM.9 : Min. Via (Vian-1) spacing for sea of Via on MIM top plate. : 0.5µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.10</name>
+   <description>MIMTM.10 : (a) There cannot be any Vian-2 touching MIM bottom plate Metaln-1.
+                      (b) MIM bottom plate Metaln-1 can only be connected through the higher Via (Vian-1).</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>MIMTM.11</name>
+   <description>MIMTM.11 : Bottom plate of multiple MIM caps can be shared (for common nodes)
+                     as long as total MIM area with that single common plate does not exceed MIMTM.8b rule. : -µm</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2462.72,1783.185;2462.72,1783.445;2462.98,1783.445;2462.98,1783.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2475.05,1783.185;2475.05,1783.445;2475.31,1783.445;2475.31,1783.185)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2460.59,1785.045;2460.59,1785.305;2460.85,1785.305;2460.85,1785.045)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2472.92,1785.045;2472.92,1785.305;2473.18,1785.305;2473.18,1785.045)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2505.22,1789.285;2505.22,1789.545;2505.48,1789.545;2505.48,1789.285)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.305,1797.575;2509.305,1797.835;2509.565,1797.835;2509.565,1797.575)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1157.98;2511.575,1158.24;2511.835,1158.24;2511.835,1157.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1158.98;2511.575,1159.24;2511.835,1159.24;2511.835,1158.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1159.98;2511.575,1160.24;2511.835,1160.24;2511.835,1159.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1315.47,2459.42;1315.47,2459.68;1315.73,2459.68;1315.73,2459.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1321.27,2459.42;1321.27,2459.68;1321.53,2459.68;1321.53,2459.42)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1315.47,2461.22;1315.47,2461.48;1315.73,2461.48;1315.73,2461.22)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1321.27,2461.22;1321.27,2461.48;1321.53,2461.48;1321.53,2461.22)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1315.47,2462.92;1315.47,2463.18;1315.73,2463.18;1315.73,2462.92)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1321.27,2462.92;1321.27,2463.18;1321.53,2463.18;1321.53,2462.92)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1315.47,2464.72;1315.47,2464.98;1315.73,2464.98;1315.73,2464.72)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (1321.27,2464.72;1321.27,2464.98;1321.53,2464.98;1321.53,2464.72)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1257.805;2511.575,1258.065;2511.835,1258.065;2511.835,1257.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1258.805;2511.575,1259.065;2511.835,1259.065;2511.835,1258.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1259.805;2511.575,1260.065;2511.835,1260.065;2511.835,1259.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1358.7;2511.575,1358.96;2511.835,1358.96;2511.835,1358.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1359.7;2511.575,1359.96;2511.835,1359.96;2511.835,1359.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1360.7;2511.575,1360.96;2511.835,1360.96;2511.835,1360.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1462.99;2511.575,1463.25;2511.835,1463.25;2511.835,1462.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1463.99;2511.575,1464.25;2511.835,1464.25;2511.835,1463.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1464.99;2511.575,1465.25;2511.835,1465.25;2511.835,1464.99)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1568.015;2511.575,1568.275;2511.835,1568.275;2511.835,1568.015)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1569.015;2511.575,1569.275;2511.835,1569.275;2511.835,1569.015)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2511.575,1570.015;2511.575,1570.275;2511.835,1570.275;2511.835,1570.015)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.975,2227.3;2509.975,2227.56;2510.235,2227.56;2510.235,2227.3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.975,2228;2509.975,2228.26;2510.235,2228.26;2510.235,2228)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.975,2228.7;2509.975,2228.96;2510.235,2228.96;2510.235,2228.7)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.975,2229.4;2509.975,2229.66;2510.235,2229.66;2510.235,2229.4)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.98,2248.945;2509.98,2249.205;2510.24,2249.205;2510.24,2248.945)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.98,2249.645;2509.98,2249.905;2510.24,2249.905;2510.24,2249.645)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.98,2250.345;2509.98,2250.605;2510.24,2250.605;2510.24,2250.345)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'MIMTM.10'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2509.98,2251.045;2509.98,2251.305;2510.24,2251.305;2510.24,2251.045)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/contact.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>CO.1</name>
+   <description>CO.1 : Min/max contact size. : 0.22µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.2a</name>
+   <description>CO.2a : min. contact spacing : 0.25µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.2b</name>
+   <description>CO.2b : Space in 4x4 or larger contact array. : 0.28µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.3</name>
+   <description>CO.3 : Poly2 overlap of contact. : 0.07µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.4</name>
+   <description>CO.4 : COMP overlap of contact. : 0.07µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.5a</name>
+   <description>CO.5a : Nplus overlap of contact on COMP
+                    (Only for contacts to butted Nplus and Pplus COMP areas). : 0.1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.5b</name>
+   <description>CO.5b : Pplus overlap of contact on COMP
+                    (Only for contacts to butted Nplus and Pplus COMP areas). : 0.1µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.6</name>
+   <description>CO.6 : Metal1 overlap of contact &gt;= 0.005 um</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.6a</name>
+   <description>CO.6a : (i) Metal1 (&lt; 0.34um) end-of-line overlap contact
+                      (Applies to all &lt; 0.34µm wide metal lines,
+                      excluding metal branches shorter than 0.24µm) : 0.06µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.6b</name>
+   <description>CO.6b : (ii) If Metal1 overlaps contact by &lt; 0.04um on one side,
+                        adjacent metal1 edges overlap : 0.06µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.7</name>
+   <description>CO.7 : Space from COMP contact to Poly2 on COMP. : 0.15µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.8</name>
+   <description>CO.8 : Space from Poly2 contact to COMP. : 0.17µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.9</name>
+   <description>CO.9 : Contact on NCOMP to PCOMP butting edge is forbidden (contact must not straddle butting edge).</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.10</name>
+   <description>CO.10 : Contact on Poly2 gate over COMP is forbidden.</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CO.11</name>
+   <description>CO.11 : Contact on field oxide is forbidden.</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'CO.1'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge: (2585.285,2386.975;2585.285,2386.775)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.1'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge: (2585.275,2386.755;2585.065,2386.755)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.1'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge: (2585.275,2386.555;2585.275,2386.755)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.1'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge: (2585.285,2386.775;2585.495,2386.775)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2384.865;2586.005,2385.085)|(2585.995,2385.275;2585.995,2385.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,2384.122;2585.275,2384.275)|(2585.185,2384.508;2585.185,2384.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.786,2384.275;2585.995,2384.275)|(2586.214,2384.395;2586.005,2384.395)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,2385.275;2585.995,2385.275)|(2586.225,2385.335;2586.005,2385.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,2384.555;2585.275,2384.775)|(2585.185,2384.575;2585.185,2384.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2384.395;2586.005,2384.615)|(2585.995,2384.775;2585.995,2384.555)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,2384.775;2585.995,2384.775)|(2586.225,2384.865;2586.005,2384.865)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2387.305;2586.005,2387.495)|(2585.995,2387.745;2585.995,2387.555)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,2386.275;2585.995,2386.275)|(2586.225,2386.335;2586.005,2386.335)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2385.335;2586.005,2385.555)|(2585.995,2385.775;2585.995,2385.555)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2384.775;2585.995,2384.615)|(2586.005,2384.865;2586.005,2385.025)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2386.275;2585.995,2386.085)|(2586.005,2386.335;2586.005,2386.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.065,2386.975;2585.285,2386.975)|(2585.495,2387.055;2585.275,2387.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2387.025;2586.225,2387.025)|(2585.995,2387.055;2585.775,2387.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,2384.775;2585.43,2384.775)|(2585.185,2384.825;2585.03,2384.825)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,2386.775;2585.995,2386.775)|(2586.225,2386.805;2586.005,2386.805)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2386.805;2586.005,2387.025)|(2585.995,2387.275;2585.995,2387.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2386.335;2586.005,2386.555)|(2585.995,2386.775;2585.995,2386.555)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2384.275;2585.995,2384.145)|(2586.005,2384.395;2586.005,2384.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2385.275;2585.995,2385.085)|(2586.005,2385.335;2586.005,2385.525)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2387.275;2585.995,2387.055)|(2586.005,2387.275;2586.005,2387.495)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.025,2385.045;2585.185,2385.045)|(2585.435,2385.055;2585.275,2385.055)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2586.005,2387.495;2586.225,2387.495)|(2585.995,2387.555;2585.775,2387.555)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,2384.275;2585.422,2384.275)|(2585.185,2384.355;2585.038,2384.355)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.185,2385.045;2585.185,2384.825)|(2585.275,2385.055;2585.275,2385.275)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.995,2386.775;2585.995,2386.555)|(2586.005,2386.805;2586.005,2387.025)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.2a'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,2384.592;2585.275,2384.775)|(2585.185,2385.008;2585.185,2384.825)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.5b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.275,1967.61;2585.495,1967.61)/(2585.185,1967.653;2585.585,1967.653)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.5b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2585.775,1967.61;2585.995,1967.61)/(2585.685,1967.653;2586.085,1967.653)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.5b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2868.68,1967.61;2868.9,1967.61)/(2868.59,1967.653;2868.99,1967.653)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'CO.5b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2869.18,1967.61;2869.4,1967.61)/(2869.09,1967.653;2869.49,1967.653)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
