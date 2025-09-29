@@ -1,0 +1,5 @@
+29-Sep-2025 16:46:08 | INFO    | Your Klayout version is: KLayout 0.30.2
+29-Sep-2025 16:46:08 | INFO    | ## Generating template with for the following rule tables: ['metal4.drc']
+29-Sep-2025 16:46:08 | INFO    | ## Your run dir located at: /foss/designs/integration_padframe_2025_sscs/review/results
+29-Sep-2025 16:46:08 | INFO    | Running Global Foundries 180nm MCU /foss/designs/integration_padframe_2025_sscs/review/Chipathon2025_3_padring_padless.gds checks on design metal4 on cell Chipathon2025_3_padring:
+29-Sep-2025 16:46:20 | INFO    | Klayout DRC run is clean. GDS has no DRC violations.

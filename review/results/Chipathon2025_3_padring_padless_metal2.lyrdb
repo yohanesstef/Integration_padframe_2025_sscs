@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>DRC Run Report at</description>
+ <original-file/>
+ <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/metal2.drc'</generator>
+ <top-cell>Chipathon2025_3_padring</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>M2.1</name>
+   <description>M2.1 : min. metal2 width : 0.28µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.2a</name>
+   <description>M2.2a : min. metal2 spacing : 0.28µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.2b</name>
+   <description>M2.2b : Space to wide Metal2 (length &amp; width &gt; 10um) : 0.3µm</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.3</name>
+   <description>M2.3 : Minimum metal2 area : 0.1444µm²</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.label_on_metal</name>
+   <description>M2.label_on_metal : label layer must be fully inside metal layer.</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>Chipathon2025_3_padring</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'M2.label_on_metal'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2138.845,2451.105;2138.845,2451.115;2138.855,2451.115;2138.855,2451.105)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.label_on_metal'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2152.385,2449.575;2152.385,2449.585;2152.395,2449.585;2152.395,2449.575)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.label_on_metal'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2210.445,2471.735;2210.445,2471.745;2210.455,2471.745;2210.455,2471.735)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.label_on_metal'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2247.655,2462.375;2247.655,2462.385;2247.665,2462.385;2247.665,2462.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.label_on_metal'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (2360.355,2457.175;2360.355,2457.185;2360.365,2457.185;2360.365,2457.175)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
