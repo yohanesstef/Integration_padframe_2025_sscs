@@ -1,7 +1,0 @@
-28-Sep-2025 22:56:15 | INFO    | Your Klayout version is: KLayout 0.30.2
-28-Sep-2025 22:56:15 | INFO    | ## Generating template with for the following rule tables: ['via1.drc']
-28-Sep-2025 22:56:15 | INFO    | ## Your run dir located at: /foss/designs/integration_padframe_2025_sscs/review/results
-28-Sep-2025 22:56:15 | INFO    | Running Global Foundries 180nm MCU /foss/designs/integration_padframe_2025_sscs/review/Chipathon2025_3_padring_padless.gds checks on design via1 on cell Chipathon2025_3_padring:
-28-Sep-2025 22:56:40 | ERROR   | Klayout DRC run is not clean.
-28-Sep-2025 22:56:40 | ERROR   | Violated rules are : {'V1.4c', 'V1.4a', 'V1.3d'}
-
