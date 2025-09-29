@@ -80,26 +80,26 @@
  <items>
   <item>
    <tags/>
-   <category>'NW.1a_LV'</category>
+   <category>'NW.2b_MV'</category>
    <cell>Chipathon2025_3_padring</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (2510.965,1797.935;2506.785,1797.935)|(2506.785,1797.94;2510.965,1797.94)</value>
+    <value>edge-pair: (296.3,1885.815;296.3,1895.62)|(294.955,1896.66;294.955,1886.855)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'NW.2b_LV'</category>
+   <category>'NW.2b_MV'</category>
    <cell>Chipathon2025_3_padring</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (2506.785,1797.94;2508.555,1797.94)|(2507.395,1798.725;2505.625,1798.725)</value>
+    <value>edge-pair: (312.745,1907.655;317.865,1907.655)|(319.025,1908.9;312.745,1908.9)</value>
    </values>
   </item>
   <item>
@@ -124,30 +124,6 @@
    <image/>
    <values>
     <value>edge-pair: (312.745,1007.655;317.865,1007.655)|(319.025,1008.9;312.745,1008.9)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'NW.2b_MV'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (296.3,1885.815;296.3,1895.62)|(294.955,1896.66;294.955,1886.855)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'NW.2b_MV'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (312.745,1907.655;317.865,1907.655)|(319.025,1908.9;312.745,1908.9)</value>
    </values>
   </item>
   <item>
