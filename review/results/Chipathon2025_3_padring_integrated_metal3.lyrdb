@@ -153,150 +153,6 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (217.71,82.63;217.5,82.84)/(217.5,82.84;217.5,82.84)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (82.84,217.5;82.63,217.71)/(82.84,217.5;82.84,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (105.52,217.5;105.31,217.71)/(105.52,217.5;105.52,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (128.15,217.5;127.94,217.71)/(128.15,217.5;128.15,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (217.71,127.94;217.5,128.15)/(217.5,128.15;217.5,128.15)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (217.71,105.31;217.5,105.52)/(217.5,105.52;217.5,105.52)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (217.71,82.63;217.5,82.84)/(217.5,82.84;217.5,82.84)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (217.71,105.31;217.5,105.52)/(217.5,105.52;217.5,105.52)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (217.71,127.94;217.5,128.15)/(217.5,128.15;217.5,128.15)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (82.84,217.5;82.63,217.71)/(82.84,217.5;82.84,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (105.52,217.5;105.31,217.71)/(105.52,217.5;105.52,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (128.15,217.5;127.94,217.71)/(128.15,217.5;128.15,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
     <value>edge-pair: (161.99,2717.29;162.2,2717.5)/(162.2,2717.5;162.2,2717.5)</value>
    </values>
   </item>
@@ -334,6 +190,150 @@
    <image/>
    <values>
     <value>edge-pair: (127.94,2717.29;128.15,2717.5)/(128.15,2717.5;128.15,2717.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,82.63;217.5,82.84)/(217.5,82.84;217.5,82.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (82.84,217.5;82.63,217.71)/(82.84,217.5;82.84,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (105.52,217.5;105.31,217.71)/(105.52,217.5;105.52,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (128.15,217.5;127.94,217.71)/(128.15,217.5;128.15,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,127.94;217.5,128.15)/(217.5,128.15;217.5,128.15)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,105.31;217.5,105.52)/(217.5,105.52;217.5,105.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (82.84,217.5;82.63,217.71)/(82.84,217.5;82.84,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (105.52,217.5;105.31,217.71)/(105.52,217.5;105.52,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (128.15,217.5;127.94,217.71)/(128.15,217.5;128.15,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,82.63;217.5,82.84)/(217.5,82.84;217.5,82.84)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,105.31;217.5,105.52)/(217.5,105.52;217.5,105.52)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (217.71,127.94;217.5,128.15)/(217.5,128.15;217.5,128.15)</value>
    </values>
   </item>
   <item>
@@ -429,90 +429,6 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (2717.29,2852.37;2717.5,2852.16)/(2717.5,2852.16;2717.5,2852.16)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2717.29,2773.01;2717.5,2772.8)/(2717.5,2772.8;2717.5,2772.8)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2717.29,2829.69;2717.5,2829.48)/(2717.5,2829.48;2717.5,2829.48)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2717.29,2807.06;2717.5,2806.85)/(2717.5,2806.85;2717.5,2806.85)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2807.06,217.71;2806.85,217.5)/(2806.85,217.5;2806.85,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2829.69,217.71;2829.48,217.5)/(2829.48,217.5;2829.48,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2852.37,217.71;2852.16,217.5)/(2852.16,217.5;2852.16,217.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
     <value>edge-pair: (2717.5,82.84;2717.29,82.63)/(2717.5,82.84;2717.5,82.84)</value>
    </values>
   </item>
@@ -585,6 +501,138 @@
    <comment/>
    <image/>
    <values>
+    <value>edge-pair: (2717.29,2852.37;2717.5,2852.16)/(2717.5,2852.16;2717.5,2852.16)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2717.29,2773.01;2717.5,2772.8)/(2717.5,2772.8;2717.5,2772.8)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2717.29,2829.69;2717.5,2829.48)/(2717.5,2829.48;2717.5,2829.48)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2717.29,2807.06;2717.5,2806.85)/(2717.5,2806.85;2717.5,2806.85)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2807.06,217.71;2806.85,217.5)/(2806.85,217.5;2806.85,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2829.69,217.71;2829.48,217.5)/(2829.48,217.5;2829.48,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2852.37,217.71;2852.16,217.5)/(2852.16,217.5;2852.16,217.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2772.8,2717.5;2773.01,2717.29)/(2772.8,2717.5;2772.8,2717.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2806.85,2717.5;2807.06,2717.29)/(2806.85,2717.5;2806.85,2717.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2829.48,2717.5;2829.69,2717.29)/(2829.48,2717.5;2829.48,2717.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (2852.16,2717.5;2852.37,2717.29)/(2852.16,2717.5;2852.16,2717.5)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.2b'</category>
+   <cell>Chipathon2025_3_padring</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
     <value>edge-pair: (2806.85,2717.5;2807.06,2717.29)/(2806.85,2717.5;2806.85,2717.5)</value>
    </values>
   </item>
@@ -670,54 +718,6 @@
    <image/>
    <values>
     <value>edge-pair: (2717.29,2807.06;2717.5,2806.85)/(2717.5,2806.85;2717.5,2806.85)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2772.8,2717.5;2773.01,2717.29)/(2772.8,2717.5;2772.8,2717.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2806.85,2717.5;2807.06,2717.29)/(2806.85,2717.5;2806.85,2717.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2829.48,2717.5;2829.69,2717.29)/(2829.48,2717.5;2829.48,2717.5)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M3.2b'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (2852.16,2717.5;2852.37,2717.29)/(2852.16,2717.5;2852.16,2717.5)</value>
    </values>
   </item>
  </items>

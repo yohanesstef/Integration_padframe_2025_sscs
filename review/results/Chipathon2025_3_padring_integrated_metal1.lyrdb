@@ -48,17 +48,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'M1.label_on_metal'</category>
-   <cell>Chipathon2025_3_padring</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (2284.005,2494.925;2284.005,2494.935;2284.015,2494.935;2284.015,2494.925)</value>
-   </values>
-  </item>
  </items>
 </report-database>
