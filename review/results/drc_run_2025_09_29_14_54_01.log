@@ -1,0 +1,7 @@
+29-Sep-2025 16:54:01 | INFO    | Your Klayout version is: KLayout 0.30.2
+29-Sep-2025 16:54:02 | INFO    | ## Generating template with for the following rule tables: ['comp.drc']
+29-Sep-2025 16:54:02 | INFO    | ## Your run dir located at: /foss/designs/integration_padframe_2025_sscs/review/results
+29-Sep-2025 16:54:02 | INFO    | Running Global Foundries 180nm MCU /foss/designs/integration_padframe_2025_sscs/review/Chipathon2025_3_padring_integrated.gds checks on design comp on cell Chipathon2025_3_padring:
+29-Sep-2025 16:54:39 | ERROR   | Klayout DRC run is not clean.
+29-Sep-2025 16:54:39 | ERROR   | Violated rules are : {'DF.4d_MV', 'DF.3b', 'DF.4c_MV', 'DF.17_MV', 'DF.16_MV'}
+
