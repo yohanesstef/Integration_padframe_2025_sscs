@@ -2,7 +2,7 @@
 <report-database>
  <description>DRC Run Report at</description>
  <original-file/>
- <generator>drc: script='/foss/designs/integration_padframe_2025_sscs/review/results/dnwell.drc'</generator>
+ <generator>drc: script='/foss/designs/tp/dnwell.drc'</generator>
  <top-cell>Chipathon2025_3_padring</top-cell>
  <tags>
  </tags>
