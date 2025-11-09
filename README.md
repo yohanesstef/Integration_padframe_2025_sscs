@@ -23,7 +23,8 @@ The individual designs on the chip die have this specs:
 - M2 Chip Odyssey: TIA (bottom), Comparator and SAR logic (top) (5MHz clock). Repo [link](https://github.com/miakadam/Wk_Chip_Odyssey)
 - M3 CreActive: Active Filter Building Blocks (6 OTAs, 6 Capacitors, 12 Resistors). Repo [link](https://github.com/assaify/creactive-chipathon-2025)
 - M9 Prof Morbius: 900MHz ISM Radio: 902–928 MHz tuning range with ideally 150 hop frequency & 50 channels. Repo [link](https://github.com/orpheus016/prof-morbius-rf-chip)
-- M10 RAZAVUS: PGA with a gain range from 6dB to 45dB (1 OTA, 1 res ladder) Repo [link](https://github.com/polarwave/SSCS-Chipathon-2025-VGA)
+- M10 RAZAVUS: PGA with a gain range from 2.5dB to 80dB (1 OTA, 1 res ladder) [link](https://docs.google.com/presentation/d/100o6kI8j3Z_EshEqWcP3buRbBRCfHR6Fv54dOGRp1Uo/edit?usp=drivesdk)
+ [links](https://github.com/polarwave/SSCS-Chipathon-2025-VGA)
 - M13 SpikCore: Neuromorphic chip with analog neurons(1 LIF, 5 AH); 6 synapses and 1 bootstrapped TG. Repo [link](https://github.com/RoyceRichmond/Mosbious_2025_Spikcore)
 
 ## Final GDS render
